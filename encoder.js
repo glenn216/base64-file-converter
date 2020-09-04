@@ -6,7 +6,7 @@ const fs = require('fs');
 prompt.start();
 
 console.log('1. Enter the file path of the file that you want to encode.');
-console.log('2. Enter the file file name of the encoded file.');
+console.log('2. Enter the file name of the encoded file.');
 
 prompt.get(['filepath', 'filename'], function (err, result) {
     if (err) { return onErr(err); }
